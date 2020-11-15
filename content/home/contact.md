@@ -10,7 +10,7 @@ headless: true
 weight: 130
 
 title: Contact
-subtitle:
+subtitle: Feel free to send me an email.
 
 content:
   # Automatically link email and phone or display as text?
@@ -20,7 +20,7 @@ content:
   form:
     provider: netlify
     formspree:
-      id:
+      id: arlie.coles@gmail.com
     netlify:
       # Enable CAPTCHA challenge to reduce spam?
       captcha: false

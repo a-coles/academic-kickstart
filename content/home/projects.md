@@ -18,20 +18,32 @@ subtitle = ""
   # To filter by a specific tag, set `tag` to an existing tag name.
   # To remove toolbar, delete/comment all instances of `[[content.filter_button]]` below.
   
-  # Default filter index (e.g. 0 corresponds to the first `[[filter_button]]` instance below).
-  filter_default = 0
+    # Default filter index (e.g. 0 corresponds to the first `[[filter_button]]` instance below).
+  filter_default = 1
   
-  # [[content.filter_button]]
-  #   name = "All"
-  #   tag = "*"
+  [[content.filter_button]]
+    name = "All"
+    tag = "*"
   
-  # [[content.filter_button]]
-  #   name = "Deep Learning"
-  #   tag = "Deep Learning"
+  [[content.filter_button]]
+    name = "Deep Learning"
+    tag = "Deep Learning"
+
+  [[content.filter_button]]
+    name = "Design"
+    tag = "Design"
   
-  # [[content.filter_button]]
-  #   name = "Other"
-  #   tag = "Demo"
+  [[content.filter_button]]
+    name = "Linguistics"
+    tag = "Linguistics"
+
+  [[content.filter_button]]
+    name = "Liturgy"
+    tag = "Liturgy"
+
+  [[content.filter_button]]
+    name = "Music"
+    tag = "Music"
 
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.

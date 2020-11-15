@@ -1,0 +1,11 @@
+# Font style metadata
+name = "bcp"
+
+# Optional Google font URL
+google_fonts = "Cutive+Mono|Lora:400,700|Roboto:400,700|Roboto+Mono:400"
+
+# Font families
+heading_font = "Lora"
+body_font = "Roboto"
+nav_font = "Lora"
+mono_font = "Roboto Mono"
